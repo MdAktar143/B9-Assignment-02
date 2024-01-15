@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,800;0,900;0,1000;1,400;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar-container{
+    max-width: 1170px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#company-name-logo{
+    width: 335px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.company-logo img {
+    width: 45px;
+    height: 56px;
+}
+
+.company-name {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.company-name .travel{
+    color: #FF5400;
+}
+
+.navbar-content {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.navbar-content a{
+    text-decoration: none;
+    color: #424247);
+}
+
+.navbar-content .home{
+    color: #FF5400;
+}
