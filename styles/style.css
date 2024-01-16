@@ -118,3 +118,54 @@ input[type=submit] {
     font-weight: 700;
     background: #FF5400;
 }
+
+.popular-section {
+    width: 1170px;
+    height: 550px;
+    margin: 80px auto 0px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.popular-section-div {
+    width: 590px;
+    margin-left: 5px;
+}
+.popular-section-div h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.popular-section-para{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    }
+.popular-section-p1{
+    margin-bottom: 24px;
+}
+.popular-section li{
+    margin-left: 5px;
+    margin-bottom: 16px;
+}
+.popular-section-p2{
+    margin-top: 24px;
+    margin-bottom: 32px;    
+}
+.popular-section-btn{
+    position: absolute;
+    margin-bottom: o;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+.popular-section img{
+    margin-left: 31px;
+}
