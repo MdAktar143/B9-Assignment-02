@@ -169,3 +169,147 @@ input[type=submit] {
 .popular-section img{
     margin-left: 31px;
 }
+
+.destination-section{
+    position: relative;
+    width: 1170px;
+    height: 1120px;
+    margin: 100px auto 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.destination-section h3{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.destination-section-para{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 48px;
+}
+.destination-img-div{
+    width: 1170px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;    
+}
+.indo-mal{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    gap: auto;
+}
+.maldives{
+    height: 300px;
+    width: 573px; 
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.maldives p{
+    position: absolute;    
+    margin-top: 133px;    
+} 
+.indonesia {
+    width: 573px;
+    height: 300px;
+    fill: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.indonesia p{
+    position: absolute;    
+    margin-top: 133px; 
+}
+
+.sri-ame-kas {
+    position: relative;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.srilanka{
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.srilanka p{
+    position: absolute;    
+    margin-top: 125px;
+}
+.america{
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.america p{
+    position: absolute;    
+    margin-top: 125px;
+}
+.kashmir{
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kashmir p{
+    position: absolute;
+    margin-top: 125px;
+
+}
+.beautiful{    
+    position: relative;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Bangladesh{
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Bangladesh p{
+    position: absolute;
+    margin-top: 132px;
+}
+.bandarban{
+    width: 673px;
+    height: 300px; 
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bandarban p{
+    position: absolute;
+    margin-top: 132px;
+}
