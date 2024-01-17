@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,800;0,900;0,1000;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:ital,wght@0,400;0,600;0,800;0,900;0,1000;1,400;1,600&display=swap');
 
 *{
     margin: 0;
@@ -496,4 +496,29 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+footer #company-name-logo {
+    margin-top: 110px;
+    margin-bottom: 15px;
+}
+.footer-p1{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 32px;
+}
+footer hr{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-p2 {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
 }
