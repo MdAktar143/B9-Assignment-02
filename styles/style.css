@@ -316,6 +316,7 @@ input[type=submit] {
 
 .choose-us-container{
     width: 1170px;
+    height: 800px;
     position: relative;
     margin: 80px auto;
 }
@@ -372,6 +373,7 @@ input[type=submit] {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+    margin-bottom: 100px;
 }
 .choose-us-body-part3 img{
     width: 64px;
@@ -395,4 +397,103 @@ input[type=submit] {
 .choose-us-body-part3{
     position: absolute;
     margin-left: 298px;
+}
+
+.newsletter-container{
+    width: 1170px;
+    height: 422px;
+    position: relative;
+    margin: 0px auto 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.newsletter-container img{
+    width: 665px;
+    height: 422px;
+    position: relative;
+    margin-right: 0;
+}
+.newsletter-txt-inp{
+    width: 480px;
+    height: 422px;
+    position: relative;
+    border:1px solid #FF5400;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;    
+}
+.newsletter-txt-inp h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 24px;
+}
+.newsletter-txt-inp p{
+    margin-left: 40px;
+    color: #5A5A5D;
+    font-size: 16px;    
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 24px;
+}
+.newsletter-txt-inp hr{
+    margin-left: 40px;
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 24px; 
+}
+.newsletter-inp-div{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 40px;   
+}
+.newsletter-inp-div input[type="text"]{
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    width: 373px;
+    height: 52px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    border: none;
+}
+.newsletter-inp-div input[type="email"]{
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    width: 373px;
+    height: 52px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    border: none;
+}
+.newsletter-inp-div input[type="submit"]{
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+}
+
+footer{
+    position: relative;
+    margin: 100px auto 0px;
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
